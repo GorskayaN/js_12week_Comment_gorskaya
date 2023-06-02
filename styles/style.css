@@ -1,0 +1,13 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box
+}
+html{
+  height: 100%;
+}
+.frame{
+  margin: 20px;
+}
+textarea, button {
+  margin: 20px;
+}

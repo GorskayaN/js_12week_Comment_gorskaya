@@ -10,7 +10,8 @@ btn.addEventListener('click', (event) => {
   name = name[0].toUpperCase() + name.slice(1)
   let avatarUrl = inputAva.value
   let message = checkSpam(inputMessage.value)
-  result.innerHTML = `<div>${name}</div><img src='${avatarUrl}'/><div>${message}</div>`
+  const nowDate = new Date()
+  result.innerHTML = `<div>${name}</div><img src='${avatarUrl}'/><div>${message}</div><div>${nowDate}</div>`
 })
 
 const checkSpam = (str) => {
